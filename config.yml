@@ -121,18 +121,22 @@ params:
 
 menu:
   main:
-    - identifier: categories
+    - identifier: 搜索
+      name: 搜索
+      url: /search/
+      weight: 1
+    - identifier: 分类
       name: 分类
       url: /categories/
-      weight: 10
-    - identifier: tags
+      weight: 2
+    - identifier: 标签
       name: 标签
       url: /tags/
-      weight: 20
+      weight: 3
     - identifier: Github
       name: Github
       url: "https://github.com/OctoSheep"
-      weight: 30
+      weight: 4
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
