@@ -59,7 +59,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "😸"
-    Content: 猫猫说很高兴看到你
+    Content: 猫猫很开心
 
   socialIcons:
     - name: github
