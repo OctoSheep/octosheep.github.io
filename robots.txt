@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://octosheep.github.io/sitemap.xml
