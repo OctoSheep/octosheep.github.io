@@ -11,6 +11,8 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 
+googleAnalytics: G-0NJL98K363
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -25,6 +27,7 @@ params:
   DateFormat: "2006-1-2"
   defaultTheme: auto
   disableThemeToggle: false
+  hideFooter: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -90,10 +93,6 @@ params:
 
   # analytics:
   #   google:
-  #     SiteVerificationTag: "XYZabc"
-  #   bing:
-  #     SiteVerificationTag: "XYZabc"
-  #   yandex:
   #     SiteVerificationTag: "XYZabc"
 
   cover:
