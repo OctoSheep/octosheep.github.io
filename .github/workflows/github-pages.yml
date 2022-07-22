@@ -6,7 +6,7 @@ on:
       - "LICENSE"
       - "README.md"
     branches:
-      - dev
+      - main
   workflow_dispatch:
     inputs:
       hugoVersion:
@@ -21,7 +21,7 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
         with:
-          ref: dev
+          ref: main
 
       - name: Get Theme
         run: git submodule update --init --recursive
