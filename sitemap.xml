@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://octosheep.github.io/categories/</loc>
-    <lastmod>2022-07-21T04:15:49+08:00</lastmod>
-    <changefreq>always</changefreq>
-  </url><url>
     <loc>https://octosheep.github.io/tags/markdown/</loc>
     <lastmod>2022-07-21T04:15:49+08:00</lastmod>
     <changefreq>always</changefreq>
@@ -23,6 +19,10 @@
     <changefreq>always</changefreq>
   </url><url>
     <loc>https://octosheep.github.io/tags/%E7%BF%BB%E8%AF%91/</loc>
+    <lastmod>2022-07-21T04:15:49+08:00</lastmod>
+    <changefreq>always</changefreq>
+  </url><url>
+    <loc>https://octosheep.github.io/categories/</loc>
     <lastmod>2022-07-21T04:15:49+08:00</lastmod>
     <changefreq>always</changefreq>
   </url><url>
