@@ -6,15 +6,20 @@ jobs:
   Send_Message:
     runs-on: ubuntu-latest
     steps:
-      - name: send telegram message on push
+      - name: Telegram Notification
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
+          format: markdown
           message: |
-            ${{ github.actor }} 创建了提交：
-            提交信息：${{ github.event.commits[0].message }}
-            仓库：${{ github.repository }}
-            
-            在 GitHub 上查看详细信息：https://github.com/${{ github.repository }}/commit/${{github.sha}}
-            在 GitLab 上查看详细信息：https://gitlab.com/${{ github.repository }}/commit/${{github.sha}}
+            ```
+            ${{ github.event.head_commit.message }}
+            ```
+            ================
+
+            `${{ github.repository }}`
+
+            [GitHub Pages](https://octosheep.github.io)
+
+            [GitHub](https://github.com/${{ github.repository }}/commit/${{github.sha}}) | [GitLab](https://gitlab.com/${{ github.repository }}/commit/${{github.sha}})
