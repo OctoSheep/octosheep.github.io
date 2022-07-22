@@ -1,6 +1,6 @@
 baseURL: https://octosheep.github.io/
 languageCode: zh-Hans-CN
-title: My New Hugo Site
+title: "Octo 的妙妙屋"
 theme: "PaperMod"
 
 defaultContentLanguage: zh
@@ -19,11 +19,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, PaperMod]
   author: "Octo"
-  images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-1-2"
   defaultTheme: auto
   disableThemeToggle: false
@@ -33,7 +29,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -50,31 +46,16 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: "Home"
+    text: "Octo 的妙妙屋"
     icon: /apple-touch-icon.png
     iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
@@ -90,10 +71,6 @@ params:
       url: "https://t.me/OctoSheep"
     - name: rss
       url: "https://octosheep.github.io/index.xml"
-
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -115,6 +92,9 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+sitemap:
+  changefreq: always
 
 menu:
   main:
