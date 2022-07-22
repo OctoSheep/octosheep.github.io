@@ -93,6 +93,12 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
 sitemap:
   changefreq: always
 
@@ -113,7 +119,7 @@ menu:
     - identifier: Github
       name: Github
       url: "https://github.com/OctoSheep"
-      weight: 4
+      weight: 5
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
