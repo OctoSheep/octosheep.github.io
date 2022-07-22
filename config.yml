@@ -23,7 +23,6 @@ params:
   DateFormat: "2006-1-2"
   defaultTheme: auto
   disableThemeToggle: false
-  hideFooter: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -35,7 +34,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -108,14 +107,18 @@ menu:
       name: 搜索
       url: /search/
       weight: 1
+    - identifier: 所有文章
+      name: 所有文章
+      url: /archives/
+      weight: 2     
     - identifier: 分类
       name: 分类
       url: /categories/
-      weight: 2
+      weight: 3
     - identifier: 标签
       name: 标签
       url: /tags/
-      weight: 3
+      weight: 4
     - identifier: Github
       name: Github
       url: "https://github.com/OctoSheep"
