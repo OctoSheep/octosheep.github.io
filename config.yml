@@ -53,8 +53,8 @@ params:
 
   label:
     text: "Octo 的妙妙屋"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    icon: /favicon.png
+    iconHeight: 64
 
   # home-info mode
   homeInfoParams:
