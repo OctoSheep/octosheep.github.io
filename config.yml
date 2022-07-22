@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://octosheep.github.io/
 languageCode: zh-Hans-CN
 title: My New Hugo Site
 theme: "PaperMod"
