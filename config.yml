@@ -54,7 +54,7 @@ params:
   label:
     text: "Octo 的妙妙屋"
     icon: /favicon.png
-    iconHeight: 64
+    iconHeight: 50
 
   # home-info mode
   homeInfoParams:
