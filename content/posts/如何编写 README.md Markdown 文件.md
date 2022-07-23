@@ -34,3 +34,55 @@ Markdown 是一种轻量级标记语言，它能够将纯文本格式化为各�
 ![VS Code Screenshort](/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%20README.md%20Markdown%20%E6%96%87%E4%BB%B6/%E4%BB%80%E4%B9%88%E6%98%AF%20Markdown-03.png#center)
 
 第 4 步：开始编写文件。
+
+## 标题
+
+标题都是以井号 `#` 开头的，不同数量的井号代表了不同的级别。
+
+{{< figure src="/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%20README.md%20Markdown%20%E6%96%87%E4%BB%B6/%E6%A0%87%E9%A2%98-01.jpg" align=center title="Markdown 的标题" >}}
+
+你最多可以写到六级标题
+
+## 普通文本
+
+如果你只是想写点普通文本，直接输入就可以了，无需添加任何标记，它会被自动转换为正文。
+
+{{< figure src="/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%20README.md%20Markdown%20%E6%96%87%E4%BB%B6/%E6%99%AE%E9%80%9A%E6%96%87%E6%9C%AC-01.jpg" align=center title="你可以在 Markdown 文件中编写普通文本" >}}
+
+## 超链接
+
+你可以像下面那样在 Markdown 文件中添加超链接。
+
+`[链接文字](目标地址)`
+
+例如：`[Github](https://www.github.com)`
+
+你也可以写上链接的标题（把鼠标移上去的时候会显示）。
+
+`[链接文字](目标地址 "标题")`
+
+例如：`[Github](https://www.github.com "Github 主页")`
+
+![Hyperlink Example](/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%20README.md%20Markdown%20%E6%96%87%E4%BB%B6/%E8%B6%85%E9%93%BE%E6%8E%A5-01.jpg#center)
+
+> 注意：目标地址和标题之间要有个空格。
+
+## 加粗和斜体
+
+在文本的前后都加上一个下划线 `-` 就可以让文文字变成斜体；前后都加上两个星号 `**` 可以加粗文字了。
+
+![Strong and Italic Text Example](/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%20README.md%20Markdown%20%E6%96%87%E4%BB%B6/%E5%8A%A0%E7%B2%97%E5%92%8C%E6%96%9C%E4%BD%93-01.jpg#center)
+
+## 删除线
+
+如果你想划掉一些文字，只需要在两头加上两个波浪号 `~~` 就可以了。
+
+![Strikethrough Example](/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%20README.md%20Markdown%20%E6%96%87%E4%BB%B6/%E5%88%A0%E9%99%A4%E7%BA%BF-01.jpg#center)
+
+## 图片
+
+你可以像下面那样在 Markdown 文件中添加图片。
+
+`![图片名称](图片地址)`
+
+![Image Example](/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%20README.md%20Markdown%20%E6%96%87%E4%BB%B6/%E5%9B%BE%E7%89%87-01.jpg#center)
